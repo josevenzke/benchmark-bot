@@ -3,7 +3,7 @@ from benchmark import Benchmark
 def main():
     bench = Benchmark()
     while True:
-        option = input('1 - memory \n2- reaction')
+        option = input('1 - Memory \n2 - Reaction \n3 - Chimp')
         if option == '1':
             times = input('quantas vezes?')
             bench.memory(int(times))
@@ -12,7 +12,8 @@ def main():
             bench.reaction()
         
         if option == '3':
-            bench.aim()
+            times = input('quantas vezes?')
+            bench.chimp(int(times))
 
 
 if __name__ == '__main__':
