@@ -2,6 +2,7 @@ from selenium import webdriver
 from memory import Memory
 from reaction import Reaction
 from aim import Aim
+from chimp import Chimp
 import local
 
 class Benchmark:
@@ -20,3 +21,8 @@ class Benchmark:
     def aim(self):
         x = Aim(self.browser)
         x.start()
+    
+    def chimp(self,times):
+        x = Chimp(self.browser)
+        x.start()
+        x.play(times)
