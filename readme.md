@@ -1,5 +1,3 @@
-<img src="benchmark.png" alt="exemplo imagem">
-
 > WebBot made for playing all human benchmark games perfectly, currently its capable of beating most of the games, made with Python and Selenium.
 
 ## 💻 Pré-requisitos
