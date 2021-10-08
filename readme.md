@@ -1,26 +1,52 @@
-> WebBot made for playing all human benchmark games perfectly, currently its capable of beating most of the games, made with Python and Selenium.
 
-## 💻 Pré-requisitos
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-Antes de começar, verifique se você atendeu aos seguintes requisitos:
+  <h3 align="center">Benchmark-bot</h3>
+</div>
 
-* Você tem uma versão de Python 3+ instalada.
-* Você tem uma máquina `<Windows / Linux / Mac>`.
 
-## 🚀 Instalando <benchmark-bot>
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-Para instalar o <benchmark-bot>, siga estas etapas:
+Bot made for playing all human benchmark games perfectly.
+### Built With
 
-Caso não tenha o Selenium instalado:
-```
-<pip install -U selenium>
-```
+* [Python](https://www.python.org/)
+* [Selenium](https://www.selenium.dev/)
 
-Depois basta executar:
-```
-<python3 main.py>
-```
 
-## ☕ Usando <benchmark-bot>
 
-Para usar <benchmark-bot>, bastar seguir as instruções no menu de navegação.
+### Prerequisites
+
+Here's some of the stuff you will need to install.
+* Selenium
+  ```
+  pip install selenium
+  ```
+
+### Installation
+
+1. Clone the repository
+    ```
+    git clone https://github.com/josevenzke/benchmark-bot.git
+    ```
+
+2. Run the main file
+    ```
+    python main.py
+    ```
+    
+3. Just follow the menu
+
+
+<!-- CONTACT -->
+## Contact
+
+José Venzke -  josevenzkejr@gmail.com
+
+Project Link: [https://github.com/josevenzke/benchmark-bot](https://github.com/josevenzke/benchmark-bot)
